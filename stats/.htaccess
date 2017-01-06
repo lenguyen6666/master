@@ -1,0 +1,7 @@
+AuthName "giaanhanoi.com.vn statistics"
+AuthType Basic
+AuthUserFile /home/giaanhanoi/.stats-htpasswd
+require valid-user
+<Files .stats-htpasswd>
+deny from all
+</Files>
